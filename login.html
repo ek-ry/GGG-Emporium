@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--<img src="bgcopy.png" height="100%" width="100%">-->
+        
+        <div id="login">
+            <div id="loginf">
+                <img src="logo.png" height="50" width="50" id="logo">
+                    <center>
+                        <p style="color: white; " id="log">~ LOGIN ~</p>
+                    </center>
+            </div>
+
+            <center>
+                <div class="acc">
+                    <img src="ig.png" height="45" width="45">
+                </div>
+                <div class="acc2">
+                    <img src="fb.png" height="45" width="45">
+                </div>
+                <div class="acc3">
+                    <img src="twitter.png" height="45" width="45">
+                </div>
+                <div class="acc4">
+                    <img src="google.png" height="45" width="45">
+                </div>
+            </center>
+            
+                
+            <br><br>
+
+            <div class="hr-container">
+                <hr class="custom-hr">
+                <p class="cont">
+                    OR CONTINUE WITH
+                </p>
+                <hr class="custom-hr">
+            </div>
+            
+            <br>
+
+            <div class="submit">
+                <input type="text" id="username" size="40" placeholder="Username" required><br><br>
+                <input type="text" id="password" size="40" placeholder="Password" required><br><br>
+            </div>
+                
+                
+                <center>
+                    <button type="button" onclick="LoginForm(event)">Log In</button>
+                    <a href="index.html"><button>Back</button></a>
+                </center>
+                
+                
+            
+        </div>
+        <script>
+            function LoginForm(event){
+                event.preventDefault();
+
+                var username = document.getElementById('username').value;
+                var password = document.getElementById('password').value;
+
+                // Check if the username and password are correct (this is a simple example)
+                if (username === 'useradmin' && password === 'admin123') {
+                    // Redirect to a new page (replace 'newpage.html' with your desired page)
+                    window.location.href = 'home.html';
+                } else {
+                    alert('Invalid username or password. Please try again.');
+                }
+            }
+        </script>
+    </body>
+</html>

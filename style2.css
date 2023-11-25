@@ -1,0 +1,34 @@
+body {
+    background-image: url(bgcopy.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+}
+
+#logo {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    /*right: 10px;  Adjust the space between the div and the right border */
+    transform: translateY(-50%); /* Center the div vertically */
+    /*background-color: #283b41;  Set a background color for visibility 
+    border: 2px solid #208c8c;*/
+    
+    /*padding: 5px;  Adjust padding as needed */
+    padding-left: 600px;
+}
+
+button {
+    background-color: #90e0ef;
+    border: none;
+    font-size: 25px;
+}
+
+.signup-button {
+    padding-right: 30px;
+}
+
+p {
+    color: white;
+}

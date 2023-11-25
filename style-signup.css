@@ -1,0 +1,73 @@
+body {
+    background-image: url(bgcopy.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+}
+
+.signup-div {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    right: 100px; /* Adjust the space between the div and the right border */
+    transform: translateY(-50%); /* Center the div vertically */
+    background-color: #283b41; /* Set a background color for visibility */
+    border: 2px solid #208c8c;
+    
+    padding: 10px; /* Adjust padding as needed */
+    
+    align-items: center;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.cont {
+    font-size: 8px;
+    color: white;
+}
+
+.custom-hr {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.hr-container {
+    display: flex;
+    align-items: center;
+}
+
+.acc, .acc2, .acc3, .acc4 {
+    display: inline-block;
+    
+    background-color: white;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #90e0ef;
+}
+
+.acc img, .acc2 img, .acc3 img, .acc4 img {
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 0;
+    padding-right: 5px;
+}
+
+button {
+    background-color: #90e0ef;
+    border: none;
+}
+
+.submit {
+    margin-left: 25px;
+    margin-right: 25px;
+}

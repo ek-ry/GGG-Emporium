@@ -1,0 +1,104 @@
+body {
+    background-image: url(bgcopy.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+}
+
+#login {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    right: 100px; /* Adjust the space between the div and the right border */
+    transform: translateY(-50%); /* Center the div vertically */
+    background-color: #283b41; /* Set a background color for visibility */
+    border: 2px solid #208c8c;
+    
+    padding: 10px; /* Adjust padding as needed */
+    
+    align-items: center;
+    
+}
+
+
+#loginf {
+    display: flex;
+    align-items: flex-start;
+}
+
+#loginf img {
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+#loginf p {
+    margin-top: 0;
+}
+
+button {
+    background-color: #90e0ef;
+    border: none;
+}
+
+p {
+    
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+#log {
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+.cont {
+    font-size: 8px;
+    color: white;
+}
+
+.custom-hr {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.hr-container {
+    display: flex;
+    align-items: center;
+}
+
+.acc, .acc2, .acc3, .acc4 {
+    display: inline-block;
+    
+    background-color: white;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #90e0ef;
+}
+
+.acc img, .acc2 img, .acc3 img, .acc4 img {
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 0;
+    padding-right: 5px;
+}
+
+.submit {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens with a width of 768 pixels or less */
+    #login {
+        position: static; /* Change position to static for smaller screens */
+        transform: none; /* Remove vertical centering */
+        margin-top: 20px; /* Add margin for spacing */
+      }
+  }

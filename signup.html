@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style-signup.css">
+    </head>
+    <body>
+        <div class="signup-div">
+            <center>
+                <p style="color: white; " id="log">~ SIGN UP ~</p>
+            </center>
+
+            <center>
+                <div class="acc">
+                    <img src="ig.png" height="45" width="45">
+                </div>
+                <div class="acc2">
+                    <img src="fb.png" height="45" width="45">
+                </div>
+                <div class="acc3">
+                    <img src="twitter.png" height="45" width="45">
+                </div>
+                <div class="acc4">
+                    <img src="google.png" height="45" width="45">
+                </div>
+            </center>
+
+            <br>
+
+            <div class="hr-container">
+                <hr class="custom-hr">
+                <p class="cont">
+                    OR CONTINUE WITH
+                </p>
+                <hr class="custom-hr">
+            </div>
+
+            <div class="submit">
+                <input type="text" id="username" size="40" placeholder="Username" required><br><br>
+                <input type="text" id="email" size="40" placeholder="Email" required><br><br>
+                <input type="text" id="password" size="40" placeholder="Password" required><br><br>
+                <input type="text" id="vpassword" size="40" placeholder="Repeat Password" required><br><br>
+            </div>
+            
+
+            <center>
+                <button type="button" onclick="LoginForm(event)">Sign In</button>
+                <a href="index.html"><button>Back</button></a>
+            </center>
+        </div>
+        <script>
+            function LoginForm(event){
+                event.preventDefault();
+
+                
+                    window.location.href = 'home.html';
+            }
+        </script>
+        
+
+    </body>
+</html>

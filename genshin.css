@@ -1,0 +1,56 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #246164; /* Background color for the navbar */
+    padding-left: 10px;
+}
+
+.search-container {
+    float: left;
+    margin: 10px;
+}
+
+img {
+    float: left;
+    padding-top: 5px;
+}
+
+.home-content {
+    height: fit-content;
+    width: 1200px;
+}
+
+input[type=text] {
+    padding: 8px;
+    margin: 2px;
+    box-sizing: border-box;
+
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #ddd; /* Change the background color on hover */
+    color: black;
+}
+
+.navbar-bg {
+    background-color: #283b41;
+}
+
+.genshinimpact {
+    height: fit-content;
+    width: 1200px;
+}
